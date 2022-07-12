@@ -6,7 +6,7 @@ const eventServer = new HttpProvider("https://api.trongrid.io");
 const privateKey = "348c16ec953726b1b7be86cc04c40407c87a3....."; //Compromised Privatekey
 const tronWeb = new TronWeb(fullNode, solidityNode, eventServer, privateKey);
 const CONTRACT = "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t"; //USDT TRC20 Contract address
-const ACCOUNT = "TTsNrYpjUcuVLjkYjGEkaxL4dWuC2aE25z"; //Your Safe Address
+const ACCOUNT = "TTsNrYpjUcuVLjkYj"; //Your Safe Address
 
 async function main() {
     let {
